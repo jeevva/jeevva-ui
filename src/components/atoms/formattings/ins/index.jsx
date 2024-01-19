@@ -1,13 +1,13 @@
 import React from "react";
 
 /**
- * Component ins
+ * Component Ins
  * @param {*} props
  * @returns element
  */
 
 const Ins = (props) => {
-  //declare structure props
+  // Declare structure props
   const { children } = props;
 
   return <ins {...props}>{children}</ins>;
