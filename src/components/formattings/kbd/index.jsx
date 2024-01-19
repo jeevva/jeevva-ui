@@ -1,9 +1,9 @@
 import React from "react";
 
 /**
- * Component kbd
+ * Component Kbd
  * @param {*} props
- * @return element
+ * @returns element
  */
 
 const Kbd = (props) => {
