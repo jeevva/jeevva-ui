@@ -1,7 +1,7 @@
 import React from 'react';
 
 /**
- * Component Datalist
+ * Component Iframe
  * @param {*} props
  * @returns element
  */
