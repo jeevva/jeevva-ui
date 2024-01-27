@@ -3,7 +3,7 @@ import Bdi from "..";
 
 describe("Component Test Bdi", () => {
   it("Component Render Bdi", () => {
-    render(<bdi>Bdi</bdi>);
+    render(<Bdi>Bdi</Bdi>);
     const text = screen.getByText("Bdi");
     expect(text).toBeInTheDocument();
   });
