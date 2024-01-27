@@ -15,4 +15,9 @@ describe('Component Test Get Text', () => {
 		const text = screen.getByText('Hello world');
 		expect(text).toBeInTheDocument();
 	});
+	it('Component Datalist render test hello codding', () => {
+		render(<Datalist>Hello Coding</Datalist>);
+		const text = screen.getByText('Hello world');
+		expect(text).toBeInTheDocument();
+	});
 });
