@@ -1,10 +1,10 @@
-import { render, screen } from "@testing-library/react";
-import Ins from "..";
+import { render, screen } from '@testing-library/react';
+import Option from '..';
 
-describe("Component Test Ins", () => {
-  it("Component Render Ins", () => {
-    render(<ins>Ins</ins>);
-    const text = screen.getByText("Ins");
-    expect(text).toBeInTheDocument();
-  });
+describe('Component Test Option', () => {
+	it('Component Render Option', () => {
+		render(<Option>Option</Option>);
+		const text = screen.getByText('Option');
+		expect(text).toBeInTheDocument();
+	});
 });
