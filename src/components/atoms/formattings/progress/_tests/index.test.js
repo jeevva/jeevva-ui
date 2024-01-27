@@ -3,7 +3,7 @@ import Progress from "..";
 
 describe("Component Test Progress", () => {
   it("Component Render Progress", () => {
-    render(<progress>Progress</progress>);
+    render(<Progress>Progress</Progress>);
     const text = screen.getByText("Progress");
     expect(text).toBeInTheDocument();
   });

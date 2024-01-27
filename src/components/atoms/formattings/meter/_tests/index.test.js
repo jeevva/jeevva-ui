@@ -3,7 +3,7 @@ import Meter from "..";
 
 describe("Component Test Meter", () => {
   it("Component Render Meter", () => {
-    render(<meter>Meter</meter>);
+    render(<Meter>Meter</Meter>);
     const text = screen.getByText("Meter");
     expect(text).toBeInTheDocument();
   });

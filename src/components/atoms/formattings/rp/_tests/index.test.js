@@ -1,10 +1,10 @@
-import { render, screen } from "@testing-library/react";
-import Rp from "..";
+import { render, screen } from '@testing-library/react';
+import Rp from '..';
 
-describe("Component Test Rp", () => {
-  it("Component Render Rp", () => {
-    render(<rp>Rp</rp>);
-    const text = screen.getByText("Rp");
-    expect(text).toBeInTheDocument();
-  });
+describe('Component Test Rp', () => {
+	it('Component Render Rp', () => {
+		render(<Rp>Rp</Rp>);
+		const text = screen.getByText('Rp');
+		expect(text).toBeInTheDocument();
+	});
 });
