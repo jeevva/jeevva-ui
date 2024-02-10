@@ -1,16 +1,16 @@
 import React from "react";
 
 /**
- * Component Wbr
+ * Component Optgroup
  * @param {*} props
  * @returns element
  */
 
-const Wbr = (props) => {
+const Optgroup = (props) => {
   // Declare structure props
   const { children } = props;
 
-  return <wbr {...props}>{children}</wbr>;
+  return <optgroup {...props}>{children}</optgroup>;
 };
 
-export default Wbr;
+export default Optgroup;
