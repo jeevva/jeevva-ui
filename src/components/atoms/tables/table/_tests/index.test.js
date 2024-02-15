@@ -3,8 +3,22 @@ import Table from "..";
 
 describe("Component Test Table", () => {
   it("Component Render Table", () => {
-    render(<Table>Table</Table>);
-    const text = screen.getByText("Table");
-    expect(text).toBeInTheDocument();
+    render(
+      <Table>
+        <thead>
+          <tr>
+            <th>Header</th>
+          </tr>
+
+          <tr>
+            <td>Data</td>
+          </tr>
+        </thead>
+      </Table>
+    );
+    const header = screen.getByText("Header");
+    const data = screen.getByText("Data");
+    expect(header).toBeInTheDocument();
+    expect(data).toBeInTheDocument();
   });
 });
