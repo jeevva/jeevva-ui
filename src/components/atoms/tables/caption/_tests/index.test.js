@@ -4,17 +4,11 @@ import Caption from "..";
 describe("Component Test Caption", () => {
   it("Component Render Div Caption", () => {
     render(
-      <div>
+      <table>
         <Caption>Caption</Caption>
-      </div>
+      </table>
     );
     const text = screen.getByText("Caption");
-    expect(text).toBeInTheDocument();
-  });
-
-  it("Component Render Caption", () => {
-    render(<Caption>Captions</Caption>);
-    const text = screen.getByText("Captions");
     expect(text).toBeInTheDocument();
   });
 });
