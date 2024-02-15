@@ -10,7 +10,11 @@ const Tr = (props) => {
   // Declare structure props
   const { children } = props;
 
-  return <tr {...props}>{children}</tr>;
+  return (
+    <tr {...props}>
+      <td>{children}</td>
+    </tr>
+  );
 };
 
 export default Tr;
