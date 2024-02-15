@@ -10,7 +10,7 @@ const Wbr = (props) => {
   // Declare structure props
   const { children } = props;
 
-  return <wbr {...props}>{children}</wbr>;
+  return <wbr {...props} />;
 };
 
 export default Wbr;
