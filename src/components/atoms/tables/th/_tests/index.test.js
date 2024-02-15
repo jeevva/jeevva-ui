@@ -7,12 +7,12 @@ describe("Component Test Th", () => {
       <table>
         <thead>
           <tr>
-            <Th>Th</Th>
+            <Th>Header</Th>
           </tr>
         </thead>
       </table>
     );
-    const text = screen.getByText("Th");
+    const text = screen.getByText("Header");
     expect(text).toBeInTheDocument();
   });
 });
