@@ -23,6 +23,11 @@ import Tfoot from './tables/tfoot';
 
 // export central component atoms
 export {
+	Li,
+	Col,
+	Menu,
+	Ol,
+	Ul,
 	Map,
 	Area,
 	Canvas,
@@ -35,14 +40,9 @@ export {
 	A,
 	Link,
 	Nav,
-	Ul,
-	Ol,
-	Li,
 	Dl,
-	Menu,
 	Command,
 	Tbody,
 	Tfoot,
-	Col,
 	Colgroup,
 };
