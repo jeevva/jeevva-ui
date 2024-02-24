@@ -1,0 +1,6 @@
+{
+	"name": "figure",
+	"version": "0.0.0",
+	"private": false,
+	"main": "./index.jsx"
+}

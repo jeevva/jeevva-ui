@@ -7,12 +7,7 @@ import React from 'react';
  */
 
 const Audio = (props) => {
-	return (
-		<audio
-			alt={props.alt}
-			{...props}
-		/>
-	);
+	return <audio {...props}><source src="link_audio.mp3" type="audio/mpeg" /></audio>;
 };
 
 export default Audio;
